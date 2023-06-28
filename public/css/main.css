@@ -1,0 +1,20 @@
+body {
+      background-color: #A2B2EE;
+      color: #2e3239;
+    }
+
+    .navbar {
+      background-color: #2e3239;
+    } 
+
+#apartado {
+    background-color: #5F7ADB;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+#P1,
+#P2,
+#P3 {
+    color: #2e3239;
+}

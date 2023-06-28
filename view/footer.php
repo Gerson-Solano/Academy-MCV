@@ -1,7 +1,7 @@
-<footer class="bg-light text-center text-lg-start">
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+<footer class="bg-light text-center text-lg-start fixed-bottom">
+  <div class="text-center p-3 text-muted" style="background-color: rgba(46, 50, 57);">
     © 2023 Copyright:
-    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <a class="text-muted" href="https://mdbootstrap.com/">MDBootstrap.com</a>
   </div>
 </footer>
 

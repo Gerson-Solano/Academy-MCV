@@ -2,8 +2,10 @@
 require 'view/header.php';
 require 'view/menu.php';
 ?>
-<div class="container-fluid" id="contendorprincipal">
-    <h1><?php echo $this->mensaje; ?></h1>
+<div class="container-fluid text-center" id="contendorprincipal">
+<section id="apartado">
+        <h1 id="P2" class=""><?php echo $this->mensaje; ?></h1>
+    </section>
 
     <?php echo $this->mensajeResultado ?>
     <div class="table-responsive">
