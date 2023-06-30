@@ -52,7 +52,7 @@ class CursosModel extends Model{
     }
 
     public function verCursos($id){
-        var_dump($_SESSION);
+        //var_dump($_SESSION);
         try {
             $item = new classCursos();
             //code...
@@ -75,7 +75,6 @@ class CursosModel extends Model{
     }
       //actualizarcurso
       public function actualizarcurso($datos){
-//            var_dump($datos);
         try {
             //code... 
             //#UPDATE curso SET nombre='[value-2]',descripcion='[value-3]',tiempo='[value-4]',usuario='[value-5]' WHERE id='[value-1]'                     
@@ -103,7 +102,6 @@ class CursosModel extends Model{
             return true;
         } catch (PDOException $th) {
             //throw $th;
-            var_dump($th);
             return false;
         }           
     }

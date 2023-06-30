@@ -20,30 +20,30 @@ class Grupos extends Controller{
         $this->view->render('grupos/crear');
     }
 
-    // function insertarCurso(){
-    //     //var_dump($_POST);
-    //     if ($this->model->insertarCurso($_POST)){
-    //         $mensajeResultado = '
-    //             <div class="alert alert-success alert-dismissible fade show" role="alert">
-    //                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    //                 Nuevo Registro
-    //             </div>';
-    //     }else{
-    //         $mensajeResultado = '
-    //             <div class="alert alert-danger alert-dismissible fade show" role="alert">
-    //                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    //                 No se Registro
-    //             </div>';
-    //     }
-    //     $this->view->mensajeResultado = $mensajeResultado;        
-    //     $this->render();
-    // }
+    function insertarCurso(){
+        //var_dump($_POST);
+        if ($this->model->insertarCurso($_POST)){
+            $mensajeResultado = '
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    Nuevo Registro
+                </div>';
+        }else{
+            $mensajeResultado = '
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    No se Registro
+                </div>';
+        }
+        $this->view->mensajeResultado = $mensajeResultado;        
+        $this->render();
+    }
 
-    // function detalle(){                      
-    //     $this->view->datos = [];
-    //     $this->view->mensaje = "Detalles del Cursos";
-    //     $this->view->render('cursos/detalle');
-    // }
+    function detalle(){                      
+        $this->view->datos = [];
+        $this->view->mensaje = "Detalles del Cursos";
+        $this->view->render('cursos/detalle');
+    }
 
 }
 
