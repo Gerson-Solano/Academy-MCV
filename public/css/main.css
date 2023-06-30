@@ -1,46 +1,101 @@
 body {
-      background-color: #A2B2EE;
-      color: #2e3239;
-    }
+  background-color: #A2B2EE;
+  color: #2e3239;
+}
 
-    .nav {
-      background-color:azure; /* Color de fondo del menú */
-      color: aqua; /* Color de texto del menú */
-      font-family: Arial, sans-serif; /* Fuente del texto del menú */
-      padding: 10px; /* Espacio alrededor del menú */
-      text-align: center; /* Centra el menú horizontalmente */
-    }
-    
-    .nav ul {
-      list-style: none; /* Elimina los puntos de la lista */
-      margin: 0;
-      padding: 0;
-    }
-    
-    .nav li {
-      display: inline-block; /* Hace que los elementos se muestren en línea */
-      margin: 0 10px; /* Espacio entre los elementos del menú */
-    }
-    
-    .nav li a {
-      color: rebeccapurple; /* Color de texto del enlace */
-      text-decoration: none; /* Elimina la subrayado del enlace */
-      padding: 10px; /* Espacio alrededor del texto del enlace */
-      border-radius: 5px; /* Redondea las esquinas del enlace */
-    }
-    
-    .nav li a:hover {
-      background-color:lightseagreen; /* Color de fondo cuando se pasa el ratón por encima del enlace */
-    } 
+.nav {
+  background-color: azure;
+  /* Color de fondo del menú */
+  color: aqua;
+  /* Color de texto del menú */
+  font-family: Arial, sans-serif;
+  /* Fuente del texto del menú */
+  padding: 10px;
+  /* Espacio alrededor del menú */
+  text-align: center;
+  /* Centra el menú horizontalmente */
+}
+
+.nav ul {
+  list-style: none;
+  /* Elimina los puntos de la lista */
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  /* Hace que los elementos se muestren en línea */
+  margin: 0 10px;
+  /* Espacio entre los elementos del menú */
+}
+
+.nav li a {
+  color: rebeccapurple;
+  /* Color de texto del enlace */
+  text-decoration: none;
+  /* Elimina la subrayado del enlace */
+  padding: 10px;
+  /* Espacio alrededor del texto del enlace */
+  border-radius: 5px;
+  /* Redondea las esquinas del enlace */
+}
+
+.nav li a:hover {
+  background-color: lightseagreen;
+  /* Color de fondo cuando se pasa el ratón por encima del enlace */
+}
 
 #apartado {
-    background-color: #5F7ADB;
-    padding: 50px;
-    margin-bottom: 30px;
+  background-color: #5F7ADB;
+  padding: 50px;
+  margin-bottom: 30px;
 }
 
 #P1,
 #P2,
 #P3 {
-    color: #2e3239;
+  color: #2e3239;
+}
+
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(66, 78, 92, 0.8) 0%, rgba(66, 88, 92, 0.8) 100%), url("public/img/Inicio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead h1,
+header.masthead .h1 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+
+  header.masthead h1,
+  header.masthead .h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  header.masthead h1,
+  header.masthead .h1 {
+    font-size: 3.5rem;
+  }
 }
