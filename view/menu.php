@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark" id="Menu">
 <!-- <img class="rounded-3" id="logo" src="img/logo.ico"  style=" max-width: 80px; max-height: 80px"> -->
 <div class="container-fluid">
   
@@ -12,7 +12,7 @@
       <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         Cursos
       </a>
-      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+      <ul class="dropdown-menu dropdown-menu-dark " aria-labelledby="navbarDarkDropdownMenuLink">
         <li> <a class="dropdown-item" href="<?php echo constant('URL'); ?>cursos">Consulta</a></li>
         <li><a class="dropdown-item" href="<?php echo constant('URL'); ?>cursos/crear">Crear</a></li>
       </ul>

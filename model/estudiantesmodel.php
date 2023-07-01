@@ -81,8 +81,7 @@ class EstudiantesModel extends Model{
         }           
     }
       //actualizarEstudiante
-      public function actualizarEstudiantes($datos){
-                    var_dump($datos);
+      public function actualizarEstudiantes($datos){                   
                 try {
                     //code... 
                     //#UPDATE curso SET nombre='[value-2]',descripcion='[value-3]',tiempo='[value-4]',usuario='[value-5]' WHERE id='[value-1]'
@@ -95,7 +94,6 @@ class EstudiantesModel extends Model{
         
                 } catch (PDOException $th) {
                     //throw $th;
-                    var_dump($th);
                     return false;
                 }
             }   

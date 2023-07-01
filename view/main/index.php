@@ -2,9 +2,9 @@
 require 'view/header.php';
 require 'view/menu.php';
 ?>
-<div class="container-fluid" id="contendorprincipal">
-    <main>
-        <header class="masthead">
+<div class="container-fluid p-0" id="contendorprincipal">
+    <main class="">
+        <header class="masthead ">
             <div class="container px-4 px-lg-5 h-100">
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">

@@ -12,9 +12,9 @@ require 'view/menu.php';
         <table class="table table-striped
         table-hover	
         table-borderless
-        table-secondary
+        table-dark
         align-middle">
-            <thead class="table-light">
+            <thead class="table-dark">
                 <caption><?php echo $this->mensaje; ?></caption>
                 <tr>
                     <th>Id</th>
