@@ -15,18 +15,19 @@ class ProfesoresModel extends Model{
         try {
             //code...
             $stringSQL = "SELECT * FROM `profesor` order by id DESC;";
-
             $query = $this->db->connect()->query($stringSQL);
 
             while ( $row = $query->fetch()){//obtiene todas las filas
                 $item = new classProfesores();
-
+                //var_dump($row);
                 foreach ($row as $key => $value) {
                     # code...
                     $item->$key = $value;
                 }
                 array_push($items, $item);
             }
+            //var_dump($items);
+            
             return $items;
         } catch (PDOException $th) {
             //throw $th;

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-xl navbar-dark bg-dark" id="Menu">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark" id="Menu">
 <!-- <img class="rounded-3" id="logo" src="img/logo.ico"  style=" max-width: 80px; max-height: 80px"> -->
 <div class="container-fluid">
   

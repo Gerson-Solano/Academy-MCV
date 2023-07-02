@@ -1,6 +1,7 @@
 body {
-  background-color: #A2B2EE;
+  background-color: #a2b2ee;
   color: #2e3239;
+  /* color: #2e3239; */
 }
 
 #Menu{
@@ -11,11 +12,12 @@ body {
 }
 
 #apartado {
-  background-color: #5f7adbb9;
+  background-color: #5f7adb;
   padding: 50px;
   margin-top: 30px;
   margin-bottom: 30px;
   width: auto;
+  border-radius: 9px;
 }
 
 #P1,

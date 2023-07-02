@@ -5,12 +5,13 @@ class Profesores extends Controller{
         parent::connectionSession();
 
         $this->view->datos = [];
-        $this->view->mensaje = "Profesores";
+        $this->view->mensaje = "Listado de Profesores";
         $this->view->mensajeResultado = "";        
     }
     function render(){
         $datos = $this->model->getProfesores();               
         $this->view->datos = $datos;
+        // var_dump($datos);
         $this->view->render('profesores/index');
     }
 

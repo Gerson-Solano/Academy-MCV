@@ -41,6 +41,7 @@ require 'view/menu.php';
                     $datos = new classEstudiantes();
                     $datos = $row;
                     # code..
+                    // var_dump($datos->idCarreras);
                     echo ' <tr class="table-secondary" >
                                     <td scope="row">' . $datos->id . '</td>
                                     <td>' . $datos->cedula . '</td>

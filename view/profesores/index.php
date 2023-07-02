@@ -12,9 +12,9 @@ require 'view/menu.php';
         <table class="table table-striped
         table-hover	
         table-borderless
-        table-dark
+        table-muted
         align-middle">
-            <thead class="table-dark">
+            <thead class="table-muted">
                 <caption><?php echo $this->mensaje; ?></caption>
                 <tr>
                     <th>Id</th>
@@ -28,9 +28,9 @@ require 'view/menu.php';
                     <th>Nombre</th>
                     <th>Primer apellido </th>
                     <th>Segundo apellido</th>
-                    <th>Nacionalidad</th>
                     <th>Id Carrera</th>
                     <th>Usuario</th>
+                    <th>Nacionalidad</th>                
                     <th>Acciones</th>
 
 
@@ -43,21 +43,23 @@ require 'view/menu.php';
                     $datos = new classProfesores();
                     $datos = $row;
                     # code..
+                    //var_dump($row);
+                    //var_dump($datos);
                     echo ' <tr class="table-secondary" >
-                                    <td scope="row">' . $datos->id . '</td>
-                                    <td>' . $datos->cedula . '</td>
-                                    <td>' . $datos->correoelectronico . '</td>
-                                    <td>' . $datos->telefono . '</td>
-                                    <td>' . $datos->telefonocelular . '</td>
-                                    <td>' . $datos->fechanacimiento . '</td>
-                                    <td>' . $datos->sexo . '</td>
-                                    <td>' . $datos->direccion . '</td>
-                                    <td>' . $datos->nombre . '</td>
-                                    <td>' . $datos->apellidopaterno . '</td>
-                                    <td>' . $datos->apellidomaterno . '</td>
-                                    <td>' . $datos->nacionalidad . '</td>
-                                    <td>' . $datos->idCarreras . '</td>
-                                    <td>' . $datos->usuario . '</td>
+                    <td scope="row">' . $datos->id . '</td>
+                    <td>' . $datos->cedula . '</td>
+                    <td>' . $datos->correoelectronico . '</td>
+                    <td>' . $datos->telefono . '</td>
+                    <td>' . $datos->telefonocelular . '</td>
+                    <td>' . $datos->fechanacimiento . '</td>
+                    <td>' . $datos->sexo . '</td>
+                    <td>' . $datos->direccion . '</td>
+                    <td>' . $datos->nombre . '</td>
+                    <td>' . $datos->apellidopaterno . '</td>
+                    <td>' . $datos->apellidomaterno . '</td>
+                    <td>' . $datos->idCarreras . '</td>
+                    <td>' . $datos->usuario . '</td>
+                    <td>' . $datos->nacionalidad . '</td> 
                                     <td>
                                         <a name="eliminar" id="eliminar" class="btn btn-danger" href="' . constant('URL') . 'profesores/eliminarProfesor/' . $datos->id . '" role="button">Eliminar</a>
                                         ||

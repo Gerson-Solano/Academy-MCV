@@ -11,15 +11,14 @@ class EstudiantesModel extends Model{
 
     public function getEstudiantes(){        
         $items = [];
-
         try {
             //code...
             $stringSQL = "SELECT * FROM `estudiante` order by id DESC;";
             $query = $this->db->connect()->query($stringSQL);
-
+            var_dump($query);
             while ( $row = $query->fetch()){//obtiene todas las filas
                 $item = new classEstudiantes();
-
+                var_dump($row);
                 foreach ($row as $key => $value) {
                     # code...
                     $item->$key = $value;

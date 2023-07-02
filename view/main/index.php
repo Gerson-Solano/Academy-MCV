@@ -24,41 +24,12 @@ require 'view/menu.php';
 
 
         </section>
-        <section id="apartado">
-            <div class="container">
-                <h2 id="P2">Cursos</h2>
-                <p>Aquí encontrarás información sobre nuestros cursos.</p>
-                <!-- Agrega contenido adicional según tus necesidades -->
-            </div>
-        </section>
-
-        <section id="apartado">
-            <div class="container">
-                <h2 id="P2">Profesores</h2>
-                <p>Conoce a nuestros profesores altamente capacitados.</p>
-                <!-- Agrega contenido adicional según tus necesidades -->
-            </div>
-        </section>
-
-        <section id="apartado">
-            <div class="container">
-                <h2 id="P2">Grupos</h2>
-                <p>Descubre los diferentes grupos disponibles.</p>
-                <!-- Agrega contenido adicional según tus necesidades -->
-            </div>
-        </section>
-
-        <section id="apartado">
-            <div class="container">
-                <h2 id="P2">Estudiantes</h2>
-                <p>Información para nuestros estudiantes.</p>
-                <!-- Agrega contenido adicional según tus necesidades -->
-            </div>
-        </section>
+       
     </main>
 
     <!-- Bootstrap Bundle with Popper -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script> -->
+    
 </div>
 <?php
 require 'view/footer.php';

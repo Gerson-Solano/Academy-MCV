@@ -5,7 +5,7 @@ class Grupos extends Controller{
         parent::connectionSession();
 
         $this->view->datos = [];
-        $this->view->mensaje = "Grupos";
+        $this->view->mensaje = "Listado de Grupos";
         $this->view->mensajeResultado = "";        
     }
     function render(){

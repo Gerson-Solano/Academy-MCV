@@ -5,7 +5,7 @@ class Estudiantes extends Controller{
         parent::connectionSession();
 
         $this->view->datos = [];
-        $this->view->mensaje = "Estudiantes";
+        $this->view->mensaje = "Listado de Estudiantes";
         $this->view->mensajeResultado = "";        
     }
     function render(){

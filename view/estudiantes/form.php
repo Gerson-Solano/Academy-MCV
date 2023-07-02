@@ -17,12 +17,12 @@
     </div>
     <div class="mb-3">
       <label for="" class="form-label">Telefono </label>
-      <input type="text" required class="form-control" name="telefono" id="telefono" aria-describedby="helpId" placeholder="Ingrese el telefono del estudiante" value="<?php echo isset($this->datos->telefono) ? $this->datos->telefono : ""; ?>">
+      <input type="tel" required class="form-control" name="telefono" id="telefono" aria-describedby="helpId" placeholder="Ingrese el telefono del estudiante" value="<?php echo isset($this->datos->telefono) ? $this->datos->telefono : ""; ?>">
       <small id="helpId" class="form-text text-muted">Telefono del estudiante</small>
     </div>
     <div class="mb-3">
       <label for="" class="form-label">Telefono celular </label>
-      <input type="tel" pattern="[0-9]*" required class="form-control" name="telefonocelular" id="telefonocelular" aria-describedby="helpId" placeholder="Ingrese el telefono celular del estudiante" value="<?php echo isset($this->datos->telefonocelular) ? $this->datos->telefonocelular : ""; ?>">
+      <input type="tel" required class="form-control" name="telefonocelular" id="telefonocelular" aria-describedby="helpId" placeholder="Ingrese el telefono celular del estudiante" value="<?php echo isset($this->datos->telefonocelular) ? $this->datos->telefonocelular : ""; ?>">
       <small id="helpId" class="form-text text-muted">Telefono del estudiante</small>
     </div>
     <div class="mb-3">
