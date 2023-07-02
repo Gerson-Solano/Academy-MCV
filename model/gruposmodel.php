@@ -11,7 +11,6 @@ class GruposModel extends Model{
 
     public function getGrupos(){
         $items = [];
-
         try {
             //code...
             $stringSQL = "SELECT * FROM `grupo` order by id DESC;";
@@ -34,10 +33,11 @@ class GruposModel extends Model{
     }
 
     public function insertargrupo($datos){
+        
 //# INSERT INTO curso(id, nombre, descripcion, tiempo, usuario) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]')
         try {
             //code...
-           // $datos['id'] = "0";
+            //$datos['id'] = "0";
             //$datos['usuario'] = "Prof Mario";
             $stringSQL = 'INSERT INTO grupo(id, nombre) VALUES ( :id, :nombre);';
             $query = $this->db->connect()->prepare($stringSQL);
@@ -74,5 +74,3 @@ class GruposModel extends Model{
         }           
     }
 }
-
-?>

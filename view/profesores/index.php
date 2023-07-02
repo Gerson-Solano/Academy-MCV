@@ -57,7 +57,7 @@ require 'view/menu.php';
                     <td>' . $datos->nombre . '</td>
                     <td>' . $datos->apellidopaterno . '</td>
                     <td>' . $datos->apellidomaterno . '</td>
-                    <td>' . $datos->idCarreras . '</td>
+                    <td>' . $datos->idcarreras . '</td>
                     <td>' . $datos->usuario . '</td>
                     <td>' . $datos->nacionalidad . '</td> 
                                     <td>

@@ -9,7 +9,6 @@ class App {
        $url = rtrim( $url, '/');
 
        $url = explode('/', $url);
-
         // paginas/admin/create/
         // 0 admin/ 1 create/
 
@@ -21,7 +20,8 @@ class App {
             $controller->render();
             return false;
         }
-
+        
+        
         $archivoController = 'controller/'.$url[0].'.php';
 
 
